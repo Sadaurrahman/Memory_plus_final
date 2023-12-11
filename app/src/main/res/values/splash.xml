@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App.Starting.Theme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+    <item name="windowSplashScreenBackground" type="color">@color/white</item>
+    <item name="windowSplashScreenAnimatedIcon" type="drawable" >@drawable/baseline_location_on_24</item>
+    <item name="windowSplashScreenAnimationDuration" type="integer">800</item>
+    <item name="postSplashScreenTheme" type="style">@style/Theme.Memory_plus</item>
+    </style>
+</resources>
